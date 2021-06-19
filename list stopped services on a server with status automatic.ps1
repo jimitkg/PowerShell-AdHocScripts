@@ -1,2 +1,2 @@
-Get-Service * | select DisplayName,Name,StartType,Status|where {$_.StartType -eq 'Automatic' -and
+Get-Service * | Select-Object DisplayName,Name,StartType,Status|Where-Object {$_.StartType -eq 'Automatic' -and
  $_.Status -ne 'Running'} | Format-Table -Wrap -AutoSize
