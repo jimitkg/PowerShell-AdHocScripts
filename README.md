@@ -1,3 +1,3 @@
 # PowerShell-AdHocScripts
 
-adhoc scripts
+useful powershell scripts and commands for day to day ops work
